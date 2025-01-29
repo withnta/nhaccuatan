@@ -47,7 +47,7 @@ let allMusic = [
       src: "music-6"
     },
     {
-      name: " hãy cho con chịu đau khổ thay em remix",
+      name: "hãy cho con chịu đau khổ thay em remix",
       artist: "EREN x Lil Liem",
       img: "music-7",
       src: "music-7"
