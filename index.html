@@ -41,11 +41,20 @@
       <i id="next" class="material-icons">skip_next</i>
       <i id="more-music" class="material-icons">queue_music</i>
     </div>
+    <div class="volume-control">
+      <i id="volume-icon" class="material-icons">volume_up</i>
+      <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+    </div>
     <div class="music-list">
       <div class="header">
         <div class="row">
           <i class= "list material-icons">queue_music</i>
           <span>Music list</span>
+          <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Tìm bài hát...">
+            <i class="material-icons">search</i>
+          </div>
+          
         </div>
         <i id="close" class="material-icons">close</i>
       </div>
